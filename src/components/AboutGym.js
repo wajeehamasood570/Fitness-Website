@@ -21,6 +21,9 @@ const AboutGym = () => {
                             <h2>Safe Body building proper Solutions That Saves our Valuable Time!</h2>
                             <p className="pera-top py-5">Brook presents your services with flexible, convenient and cdpose layouts. You can select your favorite layouts &amp; elements for cular ts with unlimited ustomization possibilities. Pixel-perfect replication of the designers is intended.</p>
                             <p class="mb-65 pera-bottom">Brook presents your services with flexible, convefnient and chient anipurpose layouts. You can select your favorite layouts.</p>
+                            <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
+                                BECAME A MEMBER
+                            </a>
                         </div>
                     </Col>
                 </Row>

@@ -1,0 +1,18 @@
+a.nav-link{
+    margin: 10px ;
+    color: white;
+}
+
+.btn{
+    padding: 20px 25px;
+    background: #ff1313;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+    /* letter-spacing: 1px; */
+    border: #ff1313;
+}   
+
+
