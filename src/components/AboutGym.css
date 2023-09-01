@@ -1,0 +1,37 @@
+.section-tittle span::before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #f04e3c;
+    top: 0;
+    left: -67px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section-tittle span {
+    font-family: "Teko",sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 72px;
+    margin-bottom: 22px;
+    color: #f04e3c;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+.section-tittle h2 {
+    font-size: 38px;
+    display: block;
+    color: #2c234d;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.pera-top {
+    font-size: 16px;
+    font-weight: 500;
+    color: #212025;
+    margin-bottom: 25px;
+}
+

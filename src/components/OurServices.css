@@ -1,0 +1,8 @@
+.services{
+    background-image: url('../assests/img/gallery2/section_bg01.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 90px 105px 25px 105px;
+}
