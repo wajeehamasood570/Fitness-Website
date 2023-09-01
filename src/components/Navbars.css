@@ -2,6 +2,9 @@ a.nav-link{
     margin: 10px ;
     color: white;
 }
+a.nav-link:hover{
+    color: #ff1313;
+}
 
 .btn{
     padding: 20px 25px;
@@ -13,6 +16,10 @@ a.nav-link{
     font-weight: 300;
     /* letter-spacing: 1px; */
     border: #ff1313;
-}   
+}  
+
+.btn:hover{
+    color: white;
+}
 
 

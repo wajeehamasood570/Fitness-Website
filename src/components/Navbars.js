@@ -10,7 +10,7 @@ import './Navbars.css'
 
 function NavScrollExample() {
     return (
-        <Navbar expand="lg" bg='dark'>
+        <Navbar className="nav" expand="lg" bg='dark'>
             <Container fluid>
                 <Navbar.Brand href="#home">
                     <img

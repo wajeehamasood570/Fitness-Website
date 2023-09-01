@@ -14,7 +14,7 @@ export default function Hero() {
         <div className=''>
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-white'>
-              <h1 className='mb-5'>BUILD PERFECT BODY SHAPE FOR GOOD AND HEALTHY LIFE</h1>
+              <h1 className='mb-5'> BUILD PERFECT BODY SHAPE  FOR GOOD AND HEALTHY LIFE </h1>
               <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
                BECAME A MEMBER
               </a>

@@ -2,3 +2,24 @@
     height: 100vh;
 }
 
+.mb-5{
+    margin-top: 10px;
+    font-weight: 800;
+    font-size: 70px;
+    color: #fff;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.2;
+}
+.btn{
+    display: flex;
+    width: max-content;
+}
+.btn:hover{
+    color: white;
+    background-color: blue;
+}
+.text-white{
+    margin-top: 75px;
+}
