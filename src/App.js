@@ -8,17 +8,14 @@ import AboutGym from './components/AboutGym';
 import Hero from './components/Hero';
 import Testimonials from './components/Testimonials';
 import OurServices from './components/OurServices';
+import FitnessGallery from './components/FitnessGallery';
+import Routing from './config/Routing/Routing';
 
 function App() {
   return (
-    <div>
-      <Navbars/>
-      <Hero/>
-      <AboutGym/>
-      <OurServices/>
-      <Testimonials/>
-      <Footer/>
-    </div>
+    <>
+    <Routing/>
+    </>
   );
 }
 

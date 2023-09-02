@@ -7,10 +7,25 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../assests/img/logo/logo.png'
 import { Padding } from '@mui/icons-material';
 import './Navbars.css'
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function NavScrollExample() {
+
+    const [colorChange, setColorchange] = useState(false);
+  const changeNavbarColor = () =>{
+     if(window.scrollY >= 80){
+       setColorchange(true);
+     }
+     else{
+       setColorchange(false);
+     }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
+
+
     return (
-        <Navbar className="nav" expand="lg" bg='dark'>
+        <Navbar className={colorChange ? 'navbar colorChange' : 'navbar'} collapseOnSelect expand="lg" bg="bg-transparent text-dark" variant="dark" fixed="top" >
             <Container fluid>
                 <Navbar.Brand href="#home">
                     <img
@@ -26,13 +41,13 @@ function NavScrollExample() {
                         style={{ maxHeight: '100px'}}
                         navbarScroll
                     >
-                        <Nav.Link href="#action1">Home</Nav.Link>
-                        <Nav.Link href="#action2">About</Nav.Link>
-                        <Nav.Link href="#action2">Service</Nav.Link>
-                        <Nav.Link href="#action2">Schedule</Nav.Link>
-                        <Nav.Link href="#action2">Gallery</Nav.Link>
-                        <Nav.Link href="#action2">Blog</Nav.Link>
-                        <Nav.Link href="#action2">Contact</Nav.Link>
+                        <Nav.Link><Link to="/">Home</Link></Nav.Link>
+                        <Nav.Link><Link to="/about">About</Link></Nav.Link>
+                        <Nav.Link><Link to="/services">Service</Link></Nav.Link> 
+                        {/* <Link to=""><Nav.Link>Schedule</Nav.Link> </Link> */}
+                       <Nav.Link> <Link to="/gallery">Gallery</Link></Nav.Link> 
+                        {/* <Link to=""><Nav.Link>Blog</Nav.Link> </Link> */}
+                       <Nav.Link> <Link to="/contact">Contact </Link></Nav.Link>
                     </Nav>
                     <Button>BECAME A MEMBER</Button>
                 </Navbar.Collapse>
