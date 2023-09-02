@@ -6,6 +6,7 @@ import Navbars from '../../components/Navbars'
 import About from '../../Pages/About'
 import Services from '../../Pages/Services'
 import Gallery from '../../Pages/Gallery'
+import Contact from '../../Pages/Contact'
 
 const Routing = () => {
   return (
@@ -17,6 +18,7 @@ const Routing = () => {
             <Route exact path="/about" element={<About/>}/>
             <Route exact path="/services" element={<Services/>}/>
             <Route exact path="/gallery" element={<Gallery/>}/>
+            <Route exact path="/contact" element={<Contact/>}/>
         </Routes>
         <Footer/>
     </Router>
