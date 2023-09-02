@@ -1,11 +1,11 @@
 import React from 'react'
 import './Backgrounds.css'
 
-const Backgrounds = () => {
+const Backgrounds = (props) => {
   return (
     <div className='background'>
         <div className='container title'>
-            <h2>About Us</h2>
+            <h2>{props.title}</h2>
         </div>
     </div>
   )

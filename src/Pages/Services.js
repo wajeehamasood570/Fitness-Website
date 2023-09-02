@@ -5,7 +5,7 @@ import OurServices from '../components/OurServices'
 const Services = () => {
   return (
    <>
-   <Backgrounds/>
+   <Backgrounds title="Our Services"/>
    <OurServices/>
    </>
   )

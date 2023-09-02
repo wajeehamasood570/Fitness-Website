@@ -5,7 +5,7 @@ import Backgrounds from '../components/Backgrounds'
 const Gallery = () => {
   return (
    <>
-   <Backgrounds/>
+   <Backgrounds title="Gallery"/>
    <FitnessGallery/>
    </>
   )

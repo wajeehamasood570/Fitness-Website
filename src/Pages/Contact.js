@@ -5,7 +5,7 @@ import Contacts from '../components/Contacting'
 const Contact = () => {
   return (
     <>
-    <Backgrounds/>
+    <Backgrounds title="Contact Us"/>
     <Contacts/>
     </>
   )
