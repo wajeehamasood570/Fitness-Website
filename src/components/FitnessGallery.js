@@ -11,35 +11,27 @@ import g5 from '../assests/img/gallery2/gallery5.png'
 const FitnessGallery = () => {
     return (
         <>
-            <Container fluid className='mb-3'>
+            <Container fluid className='gallary'>
                 <Row>
-                    <Col sm={12} md={6} className='p-0'>
-                        <img src={g1} height='900' width='780px' />
+                    <Col sm={12} lg={6}  >
+                        <img src={g1} height='825' width='100%' />
                     </Col>
                     <Col sm={12} md={6}>
                         <Row>
-                            <Col sm={12} md={6} >
-                                <img src={g2} width='380px'height='435px' style={{
-                                padding:"0px 15px 15px 15px"
-                            }}/>
+                            <Col sm={6} md={6} >
+                                <img src={g2} width='300px'height='408px' className='mb-2' />
                             </Col>
-                            <Col sm={12} md={6}>
-                            <img src={g3} width='auto'height='435px'style={{
-                               padding:"0px 15px 15px 0px"
-                            }} />
+                            <Col sm={6} md={6}>
+                            <img src={g3} width='300px'height='408px' />
                             </Col>
                         </Row>
 
                         <Row>
-                            <Col sm={12} md={6} >
-                                <img src={g4} width='380px'height='435px' style={{
-                               padding:"0px 15px 15px 15px"
-                            }}/>
+                            <Col sm={6} md={6} >
+                                <img src={g4} width='300px'height='408px' className='mb-2'/>
                             </Col>
-                            <Col sm={12} md={6}>
-                            <img src={g5} width='auto'height='435px'style={{
-                               padding:"0px 15px 15px 0px"
-                            }} />
+                            <Col sm={6} md={6}>
+                            <img src={g5} width='300px'height='408px' />
                             </Col>
                         </Row>
                     </Col>

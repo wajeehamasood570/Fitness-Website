@@ -84,7 +84,7 @@ const Contacting = () => {
             <Container fluid className="p-0 mb-3">
                 <Row>
                     <Col md={6}>
-                        <img src={contacts}/>
+                        <img className="contactpic" src={contacts}/>
                     </Col>
                     <Col md={6}>
                         <div id="contact">

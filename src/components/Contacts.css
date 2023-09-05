@@ -1,9 +1,9 @@
 
 
 .form {
-  width: 600px;
-  margin: auto;
-  padding: 3rem 2rem;
+  /* width: 600px; */
+  /* margin: auto; */
+  padding: 3rem 1rem;
   form {
     background: #ffffff;
     border-radius: 10px;
@@ -32,4 +32,8 @@
       }
     }
   }
+}
+
+.contactpic{
+  width:100%;
 }

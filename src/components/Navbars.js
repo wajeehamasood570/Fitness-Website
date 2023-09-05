@@ -44,12 +44,17 @@ function NavScrollExample() {
                         <Nav.Link><Link to="/">Home</Link></Nav.Link>
                         <Nav.Link><Link to="/about">About</Link></Nav.Link>
                         <Nav.Link><Link to="/services">Service</Link></Nav.Link> 
-                        {/* <Link to=""><Nav.Link>Schedule</Nav.Link> </Link> */}
+                        <Nav.Link> <Link to="/schedule">Schedule</Link></Nav.Link> 
                        <Nav.Link> <Link to="/gallery">Gallery</Link></Nav.Link> 
+                       <Nav.Link> <Link to="/blog">Blog</Link></Nav.Link>
                         {/* <Link to=""><Nav.Link>Blog</Nav.Link> </Link> */}
                        <Nav.Link> <Link to="/contact">Contact </Link></Nav.Link>
+                       {/* <Nav.Link> <Link to="/login">Login </Link></Nav.Link> */}
                     </Nav>
-                    <Button>BECAME A MEMBER</Button>
+                    <Button ><Link style={{
+                        textDecoration:"none",
+                        color:"white"
+                    }}to="/login">BECAME A MEMBER</Link></Button>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
